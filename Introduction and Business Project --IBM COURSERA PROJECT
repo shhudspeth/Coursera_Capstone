@@ -3,11 +3,21 @@ Top Food Venues near Hospitals in the SF Bay Area
 1 Introduction
 
 1.1 BACKGROUND
-The COVID-19 novel coronavirus has hit regions of the United States in different ways. Shelter in Place orders have quarantine people in their home, except for essential workers, many of whom are healthcare workers. 
+The COVID-19 novel coronavirus has hit regions of the United States in different ways.
+Shelter in Place orders have quarantine people in their home, except for essential workers, 
+many of whom are healthcare workers. 
 
-This project seeks to find top food venues near hospitals in the Bay area (a region comprised of nine counties) in hopes of not only keeping restaurants afloat, but also to potential connecting healthcare workers with generous folks who would give gift certificates or other gifts to healthcare workers in order to keep up morale. A few volunteer organizations in NY have done similar things for healthcare workers in New York. 
+This project seeks to find top food venues near hospitals in the Bay area (a region
+comprised of nine counties) in hopes of not only keeping restaurants afloat, but also 
+to potential connecting healthcare workers with generous folks who would give gift certificates 
+or other gifts to healthcare workers in order to keep up morale. A few volunteer organizations 
+in NY have done similar things for healthcare workers in New York. 
 
-Kmeans clustering will also be used to cluster food venues and see if there 'at-risk' food clusters. With shelter-in-place many restaurants are losing income and work. A secondary analysis will see if there are food venues that are of risk of closing and recommend that the community leverage social good and support both the local economy and healthcare workers. 
+Kmeans clustering will also be used to cluster food venues and see if there 'at-risk' 
+food clusters. With shelter-in-place many restaurants are losing income and work.
+A secondary analysis will see if there are food venues that are of risk of closing 
+and recommend that the community leverage social good and support both the local 
+economy and healthcare workers. 
 
 
 1.2 Problem
@@ -21,4 +31,8 @@ This project seeks to do social and community analsyis during a time of crisis.
 
 
 2.1 Data Sources
-This project will use hospital geolocation data, the Foursquare API, as well as Census Data (for healthcare workers), and potential unemployment data from Bureau of Labor. An exploration of foursquare may also give data on how restaurants are weathering Shelter in place. Secondary sources for food delivery may include grubhub and ubereats data. 
+This project will use hospital geolocation data, the Foursquare API, as well as 
+Census Data (for healthcare workers), and potential unemployment data from Bureau 
+of Labor. An exploration of foursquare may also give data on how restaurants are 
+weathering Shelter in place. Secondary sources for food delivery may include 
+grubhub and uber-eats data. 
