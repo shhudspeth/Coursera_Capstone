@@ -1,0 +1,49 @@
+,name,lat,lng,address,locale
+0,Agnews Developmental Center,37.3946625,-121.9591252,"Agnew, Santa Clara, CA 95054, USA",Santa Clara
+1,Alameda Hospital,37.762677000000004,-122.2541547,"2070 Clinton Ave, Alameda, CA 94501, USA",Alameda
+3,Alta Bates Summit Medical Center,37.821647600000006,-122.26296699999999,"350 Hawthorne Ave, Oakland, CA 94609, USA",Oakland
+4,Brookside Hospital,37.9537211,-122.33727820000001,"Brookside Hospital Heliport, San Pablo, CA 94806, USA",San Pablo
+5,Doctors Medical Center San Pablo Campus,37.9530908,-122.3365108,"2000 Vale Rd, San Pablo, CA 94806, USA",San Pablo
+6,El Camino Hospital,37.3688478,-122.0801846,"2500 Grant Rd, Mountain View, CA 94040, USA",Mountain View
+7,Good Samaritan Hospital (San Jose),37.252044299999994,-121.94653020000001,"2425 Samaritan Dr, San Jose, CA 95124, USA",San Jose
+8,John George Psychiatric Pavilion,37.7108396,-122.1202145,"2060 Fairmont Dr, San Leandro, CA 94578, USA",San Leandro
+9,John Muir Medical Center (Concord Campus),37.9828996,-122.0337565,"2540 East St, Concord, CA 94520, USA",Concord
+10,John Muir Medical Center (Walnut Creek Campus),37.912963500000004,-122.04121540000001,"1601 Ygnacio Valley Rd, Walnut Creek, CA 94598, USA",Walnut Creek
+11,Kaiser Richmond Field Hospital,37.9371877,-122.36055590000001,"901 Nevin Ave, Richmond, CA 94801, USA",Richmond
+13,Napa State Hospital,38.2783638,-122.2662994,"2100 Napa Vallejo Hwy, Napa, CA 94558, USA",Napa
+14,Naval Hospital Oakland,37.7651049,-122.14997350000002,"8750 Mountain Blvd, Oakland, CA 94605, USA",Oakland
+15,OConnor Hospital,37.32755720000001,-121.93900049999999,"2105 Forest Ave, San Jose, CA 95128, USA",San Jose
+16,Queen of the Valley Medical Center,38.324948,-122.29640230000001,"1000 Trancas St, Napa, CA 94558, USA",Napa
+17,Rehabilitation Trauma Center,33.780179499999996,-118.18531920000001,"1045 Atlantic Ave #801, Long Beach, CA 90813, USA",Long Beach
+18,Richmond Medical Center,37.9549899,-122.3671315,"1501 Fred Jackson Way, Richmond, CA 94801, USA",Richmond
+19,Adventist Health St. Helena,38.5425608,-122.4747622,"10 Woodland Rd, St Helena, CA 94574, USA",St. Helena
+20,Adventist Health Clear Lake,38.9353458,-122.62008159999999,"15630 18th Ave, Clearlake, CA 95422, USA",Clearlake
+22,Santa Rosa Memorial Hospital,38.4436609,-122.7010287,"1165 Montgomery Dr, Santa Rosa, CA 95405, USA",Santa Rosa
+23,Sequoia Hospital,37.480085200000005,-122.25430630000001,"170 Alameda de las Pulgas, Redwood City, CA 94062, USA",Redwood City
+24,Seton Medical Center,37.679669700000005,-122.47422399999999,"1900 Sullivan Ave, Daly City, CA 94015, USA",Daly City
+25,Sonoma Valley Hospital,38.287975200000005,-122.4653001,"347 Andrieux St, Sonoma, CA 95476, USA",Sonoma
+26,St. Rose Hospital,37.63330759999999,-122.087528,"27200 Calaroga Ave, Hayward, CA 94545, USA",Hayward
+27,Sutter Delta Medical Center,37.982534799999996,-121.8029078,"3901 Lone Tree Way 2nd Floor, Antioch, CA 94509, USA",Antioch
+28,Vacaville Medical Center,38.3882472,-121.938675,"1 Quality Dr, Vacaville, CA 95688, USA",Vacaville
+29,Veterans Home of California Yountville,38.393451500000005,-122.36623329999999,"260 California Dr, Yountville, CA 94599, USA",Yountville
+30,Childrens Hospital Oakland,37.8371901,-122.26702820000001,"747 52nd St, Oakland, CA 94609, USA",Oakland
+31,"Highland Hospital (Oakland, California)",37.79890170000001,-122.2321344,"1411 E 31st St, Oakland, CA 94602, USA",Oakland
+32,Oakland Medical Center,37.8237007,-122.25848540000001,"275 W MacArthur Blvd, Oakland, CA 94611, USA",Oakland
+34,Davies Medical Center,37.76834829999999,-122.4346938,"45 Castro St, San Francisco, CA 94114, USA",San Francisco
+35,Friends of Laguna Honda Hospital,37.7492234,-122.45680520000002,"375 Laguna Honda Blvd, San Francisco, CA 94116, USA",San Francisco
+36,Langley Porter Psychiatric Institute,37.76356,-122.45687109999999,"401 Parnassus Ave, San Francisco, CA 94143, USA",San Francisco
+38,Pacific Dispensary for Women and Children,36.778261,-119.4179324,"California, USA",San Francisco
+39,Public Health Service Hospital,37.646421000000004,-120.9829717,"830 Scenic Dr, Modesto, CA 95353, USA",Modesto
+40,Saint Francis Memorial Hospital,37.7893799,-122.4167294,"900 Hyde St, San Francisco, CA 94109, USA",San Francisco
+41,St. Josephs Hospital (San Francisco),37.7854667,-122.43931809999998,"2356 Sutter St, San Francisco, CA 94115, USA",San Francisco
+42,"St. Lukes Hospital (San Francisco, California)",37.7475351,-122.42103689999999,"3555 Cesar Chavez, San Francisco, CA 94110, USA",San Francisco
+43,St. Marys Medical Center (San Francisco),37.774058200000006,-122.45378229999999,"450 Stanyan St, San Francisco, CA 94117, USA",San Francisco
+44,San Francisco Chinese Hospital,37.795528600000004,-122.40896380000001,"845 Jackson St, San Francisco, CA 94133, USA",San Francisco
+45,San Francisco City Clinic,37.779275,-122.41924170000001,"1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102, USA",San Francisco
+46,San Francisco General Hospital,37.7561796,-122.4050025,"1001 Potrero Ave, San Francisco, CA 94110, USA",San Francisco
+47,San Francisco VA Medical Center,37.782395,-122.50526440000002,"4150 Clement St, San Francisco, CA 94121, USA",San Francisco
+49,UCSF Benioff Childrens Hospital,37.7648549,-122.39026969999999,"1975 4th St, San Francisco, CA 94158, USA",San Francisco
+50,UCSF Betty Irene Moore Women%E2%80%99s Hospital,37.7654511,-122.3901035,"1855 4th St, San Francisco, CA 94158, USA",San Francisco
+51,UCSF Helen Diller Family Comprehensive Cancer Center,37.7662668,-122.3903787,"1450 3rd St, San Francisco, CA 94158, USA",San Francisco
+52,UCSF Medical Center,37.7631182,-122.4578207,"505 Parnassus Ave, San Francisco, CA 94143, USA",San Francisco
+53,"University of California, San Francisco Fetal Treatment Center",37.76556679999999,-122.389776,"1855 Fourth St Second Floor, Room A-2432, San Francisco, CA 94158, USA",San Francisco
