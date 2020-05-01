@@ -1,0 +1,1846 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_5f752d4c4ce24b119143920d85f99e6e {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5f752d4c4ce24b119143920d85f99e6e" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_5f752d4c4ce24b119143920d85f99e6e = L.map(
+                                  'map_5f752d4c4ce24b119143920d85f99e6e',
+                                  {center: [37.773972,-122.431297],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_fce692f572ec42f081b7d2b27ef79694 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+        
+    
+            var circle_marker_9c8a9bede87549519a779624230cafee = L.circleMarker(
+                [37.3946625,-121.9591252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_3855f2ae5b7e4e1388f76832bac4679c = L.popup({maxWidth: '300'});
+
+            
+                var html_935ace2bde78429e814f300310ba6eed = $('<div id="html_935ace2bde78429e814f300310ba6eed" style="width: 100.0%; height: 100.0%;">Agnews Developmental Center   Agnew, Santa Clara, CA 95054, USA</div>')[0];
+                popup_3855f2ae5b7e4e1388f76832bac4679c.setContent(html_935ace2bde78429e814f300310ba6eed);
+            
+
+            circle_marker_9c8a9bede87549519a779624230cafee.bindPopup(popup_3855f2ae5b7e4e1388f76832bac4679c);
+
+            
+        
+    
+            var circle_marker_d35a48cf7cdb4d7ba0c53b61e8810e3a = L.circleMarker(
+                [37.762677000000004,-122.2541547],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_55f29529ca5b434cbbed7f1eeb003d74 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f940c10571d43fda7c54cd70fc0b4b0 = $('<div id="html_6f940c10571d43fda7c54cd70fc0b4b0" style="width: 100.0%; height: 100.0%;">Alameda Hospital   2070 Clinton Ave, Alameda, CA 94501, USA</div>')[0];
+                popup_55f29529ca5b434cbbed7f1eeb003d74.setContent(html_6f940c10571d43fda7c54cd70fc0b4b0);
+            
+
+            circle_marker_d35a48cf7cdb4d7ba0c53b61e8810e3a.bindPopup(popup_55f29529ca5b434cbbed7f1eeb003d74);
+
+            
+        
+    
+            var circle_marker_e7da5a99ca554a77bd24d2ab178ec032 = L.circleMarker(
+                [37.7854667,-122.43931809999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_30b65d88ce6c4e42a263c6cc9c2e9486 = L.popup({maxWidth: '300'});
+
+            
+                var html_36fe3b6cb7bb4c20aeb38e384d7990f9 = $('<div id="html_36fe3b6cb7bb4c20aeb38e384d7990f9" style="width: 100.0%; height: 100.0%;">Alcatraz Hospital   2356 Sutter St, San Francisco, CA 94115, USA</div>')[0];
+                popup_30b65d88ce6c4e42a263c6cc9c2e9486.setContent(html_36fe3b6cb7bb4c20aeb38e384d7990f9);
+            
+
+            circle_marker_e7da5a99ca554a77bd24d2ab178ec032.bindPopup(popup_30b65d88ce6c4e42a263c6cc9c2e9486);
+
+            
+        
+    
+            var circle_marker_2b5a62af64f043dca3a7ed59478a1960 = L.circleMarker(
+                [37.821647600000006,-122.26296699999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_4e9c32524991436fa977f36f0d735fdf = L.popup({maxWidth: '300'});
+
+            
+                var html_9f90fd1d5ad64ab385fcd5bc7727b7ef = $('<div id="html_9f90fd1d5ad64ab385fcd5bc7727b7ef" style="width: 100.0%; height: 100.0%;">Alta Bates Summit Medical Center   350 Hawthorne Ave, Oakland, CA 94609, USA</div>')[0];
+                popup_4e9c32524991436fa977f36f0d735fdf.setContent(html_9f90fd1d5ad64ab385fcd5bc7727b7ef);
+            
+
+            circle_marker_2b5a62af64f043dca3a7ed59478a1960.bindPopup(popup_4e9c32524991436fa977f36f0d735fdf);
+
+            
+        
+    
+            var circle_marker_844b7c831ef84592b90efc53b36c5350 = L.circleMarker(
+                [37.9537211,-122.33727820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_378b7fe545454129a69daa48b0db14e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_64d94d79e0224b4c96545003ade2a2fb = $('<div id="html_64d94d79e0224b4c96545003ade2a2fb" style="width: 100.0%; height: 100.0%;">Brookside Hospital   Brookside Hospital Heliport, San Pablo, CA 94806, USA</div>')[0];
+                popup_378b7fe545454129a69daa48b0db14e5.setContent(html_64d94d79e0224b4c96545003ade2a2fb);
+            
+
+            circle_marker_844b7c831ef84592b90efc53b36c5350.bindPopup(popup_378b7fe545454129a69daa48b0db14e5);
+
+            
+        
+    
+            var circle_marker_21e1df07a5f1411283b86fc6ff4689e5 = L.circleMarker(
+                [37.9530908,-122.3365108],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_84da34110a1b49578d9b597553dc41e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e330bd677ac43f5894334907eb76cec = $('<div id="html_0e330bd677ac43f5894334907eb76cec" style="width: 100.0%; height: 100.0%;">Doctors Medical Center San Pablo Campus   2000 Vale Rd, San Pablo, CA 94806, USA</div>')[0];
+                popup_84da34110a1b49578d9b597553dc41e4.setContent(html_0e330bd677ac43f5894334907eb76cec);
+            
+
+            circle_marker_21e1df07a5f1411283b86fc6ff4689e5.bindPopup(popup_84da34110a1b49578d9b597553dc41e4);
+
+            
+        
+    
+            var circle_marker_01e1e5860fa145b5b3ea978ea4fef3a8 = L.circleMarker(
+                [37.3688478,-122.0801846],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_28762aba8f2b4db684ab7aa2e57e0ea2 = L.popup({maxWidth: '300'});
+
+            
+                var html_19bcc7cc3c96411c83dd93588ea88016 = $('<div id="html_19bcc7cc3c96411c83dd93588ea88016" style="width: 100.0%; height: 100.0%;">El Camino Hospital   2500 Grant Rd, Mountain View, CA 94040, USA</div>')[0];
+                popup_28762aba8f2b4db684ab7aa2e57e0ea2.setContent(html_19bcc7cc3c96411c83dd93588ea88016);
+            
+
+            circle_marker_01e1e5860fa145b5b3ea978ea4fef3a8.bindPopup(popup_28762aba8f2b4db684ab7aa2e57e0ea2);
+
+            
+        
+    
+            var circle_marker_7adc28c8527545da87bf1e3a77eadcd6 = L.circleMarker(
+                [37.252044299999994,-121.94653020000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_5ea4066d5d3e45f0a44f0d609a02c262 = L.popup({maxWidth: '300'});
+
+            
+                var html_45538d551544484b91a1e1dae837926b = $('<div id="html_45538d551544484b91a1e1dae837926b" style="width: 100.0%; height: 100.0%;">Good Samaritan Hospital (San Jose)   2425 Samaritan Dr, San Jose, CA 95124, USA</div>')[0];
+                popup_5ea4066d5d3e45f0a44f0d609a02c262.setContent(html_45538d551544484b91a1e1dae837926b);
+            
+
+            circle_marker_7adc28c8527545da87bf1e3a77eadcd6.bindPopup(popup_5ea4066d5d3e45f0a44f0d609a02c262);
+
+            
+        
+    
+            var circle_marker_d70967d2b1154849a395b279d9dfb1a3 = L.circleMarker(
+                [37.7108396,-122.1202145],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_7b096285de624c2a98dd31aa1bb20387 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f435e053b424bf8817ccbdbb719b0ee = $('<div id="html_3f435e053b424bf8817ccbdbb719b0ee" style="width: 100.0%; height: 100.0%;">John George Psychiatric Pavilion   2060 Fairmont Dr, San Leandro, CA 94578, USA</div>')[0];
+                popup_7b096285de624c2a98dd31aa1bb20387.setContent(html_3f435e053b424bf8817ccbdbb719b0ee);
+            
+
+            circle_marker_d70967d2b1154849a395b279d9dfb1a3.bindPopup(popup_7b096285de624c2a98dd31aa1bb20387);
+
+            
+        
+    
+            var circle_marker_355298a0b2214a529691f3888c2174ef = L.circleMarker(
+                [37.9828996,-122.0337565],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_94996c4b95e6454db79bfe7cb61813b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1937aa242694417aa93c159aa74cb9a4 = $('<div id="html_1937aa242694417aa93c159aa74cb9a4" style="width: 100.0%; height: 100.0%;">John Muir Medical Center (Concord Campus)   2540 East St, Concord, CA 94520, USA</div>')[0];
+                popup_94996c4b95e6454db79bfe7cb61813b8.setContent(html_1937aa242694417aa93c159aa74cb9a4);
+            
+
+            circle_marker_355298a0b2214a529691f3888c2174ef.bindPopup(popup_94996c4b95e6454db79bfe7cb61813b8);
+
+            
+        
+    
+            var circle_marker_64aee2e1009c45b2a7ae834a0ea1c27f = L.circleMarker(
+                [37.912963500000004,-122.04121540000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_60deeacb152b4e338ddfb6f6df3512d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_d454ecf0866f4b569c990746d6d566dd = $('<div id="html_d454ecf0866f4b569c990746d6d566dd" style="width: 100.0%; height: 100.0%;">John Muir Medical Center (Walnut Creek Campus)   1601 Ygnacio Valley Rd, Walnut Creek, CA 94598, USA</div>')[0];
+                popup_60deeacb152b4e338ddfb6f6df3512d0.setContent(html_d454ecf0866f4b569c990746d6d566dd);
+            
+
+            circle_marker_64aee2e1009c45b2a7ae834a0ea1c27f.bindPopup(popup_60deeacb152b4e338ddfb6f6df3512d0);
+
+            
+        
+    
+            var circle_marker_c668ae6ad6d9471eacdb468b9c87d77f = L.circleMarker(
+                [37.9371877,-122.36055590000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_b5cbd70a0ba645df9402c0f923fbf89f = L.popup({maxWidth: '300'});
+
+            
+                var html_2e65fd039d8d446c953abac442fece32 = $('<div id="html_2e65fd039d8d446c953abac442fece32" style="width: 100.0%; height: 100.0%;">Kaiser Richmond Field Hospital   901 Nevin Ave, Richmond, CA 94801, USA</div>')[0];
+                popup_b5cbd70a0ba645df9402c0f923fbf89f.setContent(html_2e65fd039d8d446c953abac442fece32);
+            
+
+            circle_marker_c668ae6ad6d9471eacdb468b9c87d77f.bindPopup(popup_b5cbd70a0ba645df9402c0f923fbf89f);
+
+            
+        
+    
+            var circle_marker_95229be2997c4becaa8c12d28e97c856 = L.circleMarker(
+                [37.679669700000005,-122.47422399999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_e36b2e81fc254c25b673590d4360b50b = L.popup({maxWidth: '300'});
+
+            
+                var html_76fa9ced5333423baa82d73bab7051fa = $('<div id="html_76fa9ced5333423baa82d73bab7051fa" style="width: 100.0%; height: 100.0%;">Marys Help Hospital   1900 Sullivan Ave, Daly City, CA 94015, USA</div>')[0];
+                popup_e36b2e81fc254c25b673590d4360b50b.setContent(html_76fa9ced5333423baa82d73bab7051fa);
+            
+
+            circle_marker_95229be2997c4becaa8c12d28e97c856.bindPopup(popup_e36b2e81fc254c25b673590d4360b50b);
+
+            
+        
+    
+            var circle_marker_1c31d917a61b4f8a90053c53067840ab = L.circleMarker(
+                [38.2783638,-122.2662994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_77cc0d5f7fc0432caf505f5573c9fe64 = L.popup({maxWidth: '300'});
+
+            
+                var html_96c0c1ba0f2441538c1f3012d03f17af = $('<div id="html_96c0c1ba0f2441538c1f3012d03f17af" style="width: 100.0%; height: 100.0%;">Napa State Hospital   2100 Napa Vallejo Hwy, Napa, CA 94558, USA</div>')[0];
+                popup_77cc0d5f7fc0432caf505f5573c9fe64.setContent(html_96c0c1ba0f2441538c1f3012d03f17af);
+            
+
+            circle_marker_1c31d917a61b4f8a90053c53067840ab.bindPopup(popup_77cc0d5f7fc0432caf505f5573c9fe64);
+
+            
+        
+    
+            var circle_marker_3663baeb0c9a49a49dc0f444cd8fdc04 = L.circleMarker(
+                [37.7651049,-122.14997350000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_a49123ceb48244b3ba0f0749f17b9953 = L.popup({maxWidth: '300'});
+
+            
+                var html_8259790b7ba946778cd1758f7e4d7fda = $('<div id="html_8259790b7ba946778cd1758f7e4d7fda" style="width: 100.0%; height: 100.0%;">Naval Hospital Oakland   8750 Mountain Blvd, Oakland, CA 94605, USA</div>')[0];
+                popup_a49123ceb48244b3ba0f0749f17b9953.setContent(html_8259790b7ba946778cd1758f7e4d7fda);
+            
+
+            circle_marker_3663baeb0c9a49a49dc0f444cd8fdc04.bindPopup(popup_a49123ceb48244b3ba0f0749f17b9953);
+
+            
+        
+    
+            var circle_marker_1233780375d649509b473d91b260987b = L.circleMarker(
+                [37.32755720000001,-121.93900049999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_1482254081af41b59fb7f67cc180ec75 = L.popup({maxWidth: '300'});
+
+            
+                var html_9da76f8c563e4618b996a2aa05ff536f = $('<div id="html_9da76f8c563e4618b996a2aa05ff536f" style="width: 100.0%; height: 100.0%;">OConnor Hospital   2105 Forest Ave, San Jose, CA 95128, USA</div>')[0];
+                popup_1482254081af41b59fb7f67cc180ec75.setContent(html_9da76f8c563e4618b996a2aa05ff536f);
+            
+
+            circle_marker_1233780375d649509b473d91b260987b.bindPopup(popup_1482254081af41b59fb7f67cc180ec75);
+
+            
+        
+    
+            var circle_marker_2fe8bd78fc164f9f9c4d0da7cb6ae3bb = L.circleMarker(
+                [38.324948,-122.29640230000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_94ae8436afaf4b3aa7b74a2637628561 = L.popup({maxWidth: '300'});
+
+            
+                var html_26893eedcf5242d58c3d6832d7205dc4 = $('<div id="html_26893eedcf5242d58c3d6832d7205dc4" style="width: 100.0%; height: 100.0%;">Queen of the Valley Medical Center   1000 Trancas St, Napa, CA 94558, USA</div>')[0];
+                popup_94ae8436afaf4b3aa7b74a2637628561.setContent(html_26893eedcf5242d58c3d6832d7205dc4);
+            
+
+            circle_marker_2fe8bd78fc164f9f9c4d0da7cb6ae3bb.bindPopup(popup_94ae8436afaf4b3aa7b74a2637628561);
+
+            
+        
+    
+            var circle_marker_e0a0d39997f34828b79c212c238982b7 = L.circleMarker(
+                [33.780179499999996,-118.18531920000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_c134a61390bf43d4bc57176b253b1a94 = L.popup({maxWidth: '300'});
+
+            
+                var html_7dd68855bcc64b29912949f458b1d0d5 = $('<div id="html_7dd68855bcc64b29912949f458b1d0d5" style="width: 100.0%; height: 100.0%;">Rehabilitation Trauma Center   1045 Atlantic Ave #801, Long Beach, CA 90813, USA</div>')[0];
+                popup_c134a61390bf43d4bc57176b253b1a94.setContent(html_7dd68855bcc64b29912949f458b1d0d5);
+            
+
+            circle_marker_e0a0d39997f34828b79c212c238982b7.bindPopup(popup_c134a61390bf43d4bc57176b253b1a94);
+
+            
+        
+    
+            var circle_marker_1aa16c794f3e42a8aeccadd3a738c1b7 = L.circleMarker(
+                [37.9549899,-122.3671315],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_25a04133addd4c4981406549ef35d4b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdc1fb30a551458497d6147f72476637 = $('<div id="html_bdc1fb30a551458497d6147f72476637" style="width: 100.0%; height: 100.0%;">Richmond Medical Center   1501 Fred Jackson Way, Richmond, CA 94801, USA</div>')[0];
+                popup_25a04133addd4c4981406549ef35d4b3.setContent(html_bdc1fb30a551458497d6147f72476637);
+            
+
+            circle_marker_1aa16c794f3e42a8aeccadd3a738c1b7.bindPopup(popup_25a04133addd4c4981406549ef35d4b3);
+
+            
+        
+    
+            var circle_marker_32dde61bb73945e0b5e447a6bd15f9e3 = L.circleMarker(
+                [38.5425608,-122.4747622],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_013d78d46a0a4c1890030fac7f6c9650 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f2426a7bde14b06ae68e0ce6c3b0f05 = $('<div id="html_5f2426a7bde14b06ae68e0ce6c3b0f05" style="width: 100.0%; height: 100.0%;">Adventist Health St. Helena   10 Woodland Rd, St Helena, CA 94574, USA</div>')[0];
+                popup_013d78d46a0a4c1890030fac7f6c9650.setContent(html_5f2426a7bde14b06ae68e0ce6c3b0f05);
+            
+
+            circle_marker_32dde61bb73945e0b5e447a6bd15f9e3.bindPopup(popup_013d78d46a0a4c1890030fac7f6c9650);
+
+            
+        
+    
+            var circle_marker_78c0b3dba8354397809606c6b2b0b6c0 = L.circleMarker(
+                [38.9353458,-122.62008159999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_30c7c623af19443786eb203a2e0c36f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_aac493476c6d47b59cf53ff00ae4b3f2 = $('<div id="html_aac493476c6d47b59cf53ff00ae4b3f2" style="width: 100.0%; height: 100.0%;">Adventist Health Clear Lake   15630 18th Ave, Clearlake, CA 95422, USA</div>')[0];
+                popup_30c7c623af19443786eb203a2e0c36f5.setContent(html_aac493476c6d47b59cf53ff00ae4b3f2);
+            
+
+            circle_marker_78c0b3dba8354397809606c6b2b0b6c0.bindPopup(popup_30c7c623af19443786eb203a2e0c36f5);
+
+            
+        
+    
+            var circle_marker_eead6be573ee4211a1aa281f9cc56b5f = L.circleMarker(
+                [37.76834829999999,-122.4346938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_2f207c62dd4e4ba5820164fffdf5277a = L.popup({maxWidth: '300'});
+
+            
+                var html_85ee6e44abc14313944ecdce37d30e4a = $('<div id="html_85ee6e44abc14313944ecdce37d30e4a" style="width: 100.0%; height: 100.0%;">San Francisco Medical Center   45 Castro St, San Francisco, CA 94114, USA</div>')[0];
+                popup_2f207c62dd4e4ba5820164fffdf5277a.setContent(html_85ee6e44abc14313944ecdce37d30e4a);
+            
+
+            circle_marker_eead6be573ee4211a1aa281f9cc56b5f.bindPopup(popup_2f207c62dd4e4ba5820164fffdf5277a);
+
+            
+        
+    
+            var circle_marker_b245b1d690114c6f8a49a7e3dd7a177a = L.circleMarker(
+                [38.4436609,-122.7010287],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_074bf48d3043485f9cdbfe1f0dac914b = L.popup({maxWidth: '300'});
+
+            
+                var html_150866dfa2064645a3d0237e0562983f = $('<div id="html_150866dfa2064645a3d0237e0562983f" style="width: 100.0%; height: 100.0%;">Santa Rosa Memorial Hospital   1165 Montgomery Dr, Santa Rosa, CA 95405, USA</div>')[0];
+                popup_074bf48d3043485f9cdbfe1f0dac914b.setContent(html_150866dfa2064645a3d0237e0562983f);
+            
+
+            circle_marker_b245b1d690114c6f8a49a7e3dd7a177a.bindPopup(popup_074bf48d3043485f9cdbfe1f0dac914b);
+
+            
+        
+    
+            var circle_marker_ab1f94ca488b417eb80eaf8b4b447ece = L.circleMarker(
+                [37.480085200000005,-122.25430630000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_e5d9ce0eeff146db8c6567a87176e25a = L.popup({maxWidth: '300'});
+
+            
+                var html_d8b8a5635fcb42d399efcb8ae2a46ea2 = $('<div id="html_d8b8a5635fcb42d399efcb8ae2a46ea2" style="width: 100.0%; height: 100.0%;">Sequoia Hospital   170 Alameda de las Pulgas, Redwood City, CA 94062, USA</div>')[0];
+                popup_e5d9ce0eeff146db8c6567a87176e25a.setContent(html_d8b8a5635fcb42d399efcb8ae2a46ea2);
+            
+
+            circle_marker_ab1f94ca488b417eb80eaf8b4b447ece.bindPopup(popup_e5d9ce0eeff146db8c6567a87176e25a);
+
+            
+        
+    
+            var circle_marker_56eadb89eed64d1f921ad445fa965079 = L.circleMarker(
+                [37.679669700000005,-122.47422399999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_b2f6f4faeae943a09e30ed1e92c0e799 = L.popup({maxWidth: '300'});
+
+            
+                var html_6e7b4dcb2321409caf4a4288b54ea2fa = $('<div id="html_6e7b4dcb2321409caf4a4288b54ea2fa" style="width: 100.0%; height: 100.0%;">Seton Medical Center   1900 Sullivan Ave, Daly City, CA 94015, USA</div>')[0];
+                popup_b2f6f4faeae943a09e30ed1e92c0e799.setContent(html_6e7b4dcb2321409caf4a4288b54ea2fa);
+            
+
+            circle_marker_56eadb89eed64d1f921ad445fa965079.bindPopup(popup_b2f6f4faeae943a09e30ed1e92c0e799);
+
+            
+        
+    
+            var circle_marker_ff94b3da8e614fa5bd758ab5c9ddd60e = L.circleMarker(
+                [38.287975200000005,-122.4653001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_e7b4cb1f2e2f47f3bfb3b3755893587c = L.popup({maxWidth: '300'});
+
+            
+                var html_5e3442cee7544814bda3bfa53a8468b8 = $('<div id="html_5e3442cee7544814bda3bfa53a8468b8" style="width: 100.0%; height: 100.0%;">Sonoma Valley Hospital   347 Andrieux St, Sonoma, CA 95476, USA</div>')[0];
+                popup_e7b4cb1f2e2f47f3bfb3b3755893587c.setContent(html_5e3442cee7544814bda3bfa53a8468b8);
+            
+
+            circle_marker_ff94b3da8e614fa5bd758ab5c9ddd60e.bindPopup(popup_e7b4cb1f2e2f47f3bfb3b3755893587c);
+
+            
+        
+    
+            var circle_marker_b39f1946d2414aea8f92efab41e561c9 = L.circleMarker(
+                [37.63330759999999,-122.087528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_f53546177fe241ed8e39444b51f17655 = L.popup({maxWidth: '300'});
+
+            
+                var html_3299fa49a9c440f1803482aa72c54b26 = $('<div id="html_3299fa49a9c440f1803482aa72c54b26" style="width: 100.0%; height: 100.0%;">St. Rose Hospital   27200 Calaroga Ave, Hayward, CA 94545, USA</div>')[0];
+                popup_f53546177fe241ed8e39444b51f17655.setContent(html_3299fa49a9c440f1803482aa72c54b26);
+            
+
+            circle_marker_b39f1946d2414aea8f92efab41e561c9.bindPopup(popup_f53546177fe241ed8e39444b51f17655);
+
+            
+        
+    
+            var circle_marker_338589c24297411fbab933ac6815d6cb = L.circleMarker(
+                [37.982534799999996,-121.8029078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_6bb487e40ff34ccda56cc2a74ea8fc97 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae67f4c38a53452898d14869c508b974 = $('<div id="html_ae67f4c38a53452898d14869c508b974" style="width: 100.0%; height: 100.0%;">Sutter Delta Medical Center   3901 Lone Tree Way 2nd Floor, Antioch, CA 94509, USA</div>')[0];
+                popup_6bb487e40ff34ccda56cc2a74ea8fc97.setContent(html_ae67f4c38a53452898d14869c508b974);
+            
+
+            circle_marker_338589c24297411fbab933ac6815d6cb.bindPopup(popup_6bb487e40ff34ccda56cc2a74ea8fc97);
+
+            
+        
+    
+            var circle_marker_84ec69e2144543b3a6bee16a94e33bce = L.circleMarker(
+                [38.3882472,-121.938675],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_4bd4be0ca8224a00908986839d5b81e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_39d8a2e04253402d969d015f9554de0e = $('<div id="html_39d8a2e04253402d969d015f9554de0e" style="width: 100.0%; height: 100.0%;">Vacaville Medical Center   1 Quality Dr, Vacaville, CA 95688, USA</div>')[0];
+                popup_4bd4be0ca8224a00908986839d5b81e4.setContent(html_39d8a2e04253402d969d015f9554de0e);
+            
+
+            circle_marker_84ec69e2144543b3a6bee16a94e33bce.bindPopup(popup_4bd4be0ca8224a00908986839d5b81e4);
+
+            
+        
+    
+            var circle_marker_7741c1ae175241388492f4e720300f58 = L.circleMarker(
+                [38.393451500000005,-122.36623329999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_3f587010b9ff4bf3b00e857108b1e495 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7fac41a46a74568b49c623654b57052 = $('<div id="html_b7fac41a46a74568b49c623654b57052" style="width: 100.0%; height: 100.0%;">Veterans Home of California Yountville   260 California Dr, Yountville, CA 94599, USA</div>')[0];
+                popup_3f587010b9ff4bf3b00e857108b1e495.setContent(html_b7fac41a46a74568b49c623654b57052);
+            
+
+            circle_marker_7741c1ae175241388492f4e720300f58.bindPopup(popup_3f587010b9ff4bf3b00e857108b1e495);
+
+            
+        
+    
+            var circle_marker_d2c6cbdbb9ac40a1bcb26548a5054592 = L.circleMarker(
+                [37.8371901,-122.26702820000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_df2e925cfc424087bb75a23aa333ee78 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a4e1f4e15784f93b1548d3182eac04a = $('<div id="html_9a4e1f4e15784f93b1548d3182eac04a" style="width: 100.0%; height: 100.0%;">Childrens Hospital Oakland   747 52nd St, Oakland, CA 94609, USA</div>')[0];
+                popup_df2e925cfc424087bb75a23aa333ee78.setContent(html_9a4e1f4e15784f93b1548d3182eac04a);
+            
+
+            circle_marker_d2c6cbdbb9ac40a1bcb26548a5054592.bindPopup(popup_df2e925cfc424087bb75a23aa333ee78);
+
+            
+        
+    
+            var circle_marker_6552c9c7107e4109a47a7d732981ba96 = L.circleMarker(
+                [37.79890170000001,-122.2321344],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_64d111eb339549939d8c144b27ccb98e = L.popup({maxWidth: '300'});
+
+            
+                var html_e02f1048b3f24fdf9c3cb3554a30e4b6 = $('<div id="html_e02f1048b3f24fdf9c3cb3554a30e4b6" style="width: 100.0%; height: 100.0%;">Highland Hospital (Oakland, California)   1411 E 31st St, Oakland, CA 94602, USA</div>')[0];
+                popup_64d111eb339549939d8c144b27ccb98e.setContent(html_e02f1048b3f24fdf9c3cb3554a30e4b6);
+            
+
+            circle_marker_6552c9c7107e4109a47a7d732981ba96.bindPopup(popup_64d111eb339549939d8c144b27ccb98e);
+
+            
+        
+    
+            var circle_marker_2370afb03dc3483d986a02cb3267c920 = L.circleMarker(
+                [37.8237007,-122.25848540000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_90f0de0be0d74623841ae512a8b4c207 = L.popup({maxWidth: '300'});
+
+            
+                var html_af7a448e4589492aa5d782191e513c88 = $('<div id="html_af7a448e4589492aa5d782191e513c88" style="width: 100.0%; height: 100.0%;">Oakland Medical Center   275 W MacArthur Blvd, Oakland, CA 94611, USA</div>')[0];
+                popup_90f0de0be0d74623841ae512a8b4c207.setContent(html_af7a448e4589492aa5d782191e513c88);
+            
+
+            circle_marker_2370afb03dc3483d986a02cb3267c920.bindPopup(popup_90f0de0be0d74623841ae512a8b4c207);
+
+            
+        
+    
+            var circle_marker_4b7f00606ad54c1daf9ebe38bfe1e303 = L.circleMarker(
+                [37.76834829999999,-122.4346938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_0cb691b67d1f4646bf86ddd112d1d969 = L.popup({maxWidth: '300'});
+
+            
+                var html_c43eb1cae37046988a6e74733dbee50b = $('<div id="html_c43eb1cae37046988a6e74733dbee50b" style="width: 100.0%; height: 100.0%;">California Pacific Medical Center   45 Castro St, San Francisco, CA 94114, USA</div>')[0];
+                popup_0cb691b67d1f4646bf86ddd112d1d969.setContent(html_c43eb1cae37046988a6e74733dbee50b);
+            
+
+            circle_marker_4b7f00606ad54c1daf9ebe38bfe1e303.bindPopup(popup_0cb691b67d1f4646bf86ddd112d1d969);
+
+            
+        
+    
+            var circle_marker_28ed95f390ad463b89f90c0ef4e86fbc = L.circleMarker(
+                [37.76834829999999,-122.4346938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_1e770297a34d44f1a4837a58d109bb0a = L.popup({maxWidth: '300'});
+
+            
+                var html_a229f6d018ea4d15b1d0b83a127df689 = $('<div id="html_a229f6d018ea4d15b1d0b83a127df689" style="width: 100.0%; height: 100.0%;">Davies Medical Center   45 Castro St, San Francisco, CA 94114, USA</div>')[0];
+                popup_1e770297a34d44f1a4837a58d109bb0a.setContent(html_a229f6d018ea4d15b1d0b83a127df689);
+            
+
+            circle_marker_28ed95f390ad463b89f90c0ef4e86fbc.bindPopup(popup_1e770297a34d44f1a4837a58d109bb0a);
+
+            
+        
+    
+            var circle_marker_6528312cee1041c78755f3d89395a0e2 = L.circleMarker(
+                [37.7492234,-122.45680520000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_5c0b1758189d4fe2a46ef8196245e7fb = L.popup({maxWidth: '300'});
+
+            
+                var html_a829c36d5c7e49c0beb252bbdda4cd94 = $('<div id="html_a829c36d5c7e49c0beb252bbdda4cd94" style="width: 100.0%; height: 100.0%;">Friends of Laguna Honda Hospital   375 Laguna Honda Blvd, San Francisco, CA 94116, USA</div>')[0];
+                popup_5c0b1758189d4fe2a46ef8196245e7fb.setContent(html_a829c36d5c7e49c0beb252bbdda4cd94);
+            
+
+            circle_marker_6528312cee1041c78755f3d89395a0e2.bindPopup(popup_5c0b1758189d4fe2a46ef8196245e7fb);
+
+            
+        
+    
+            var circle_marker_bce386c85d1e48cb903727bedaa6c605 = L.circleMarker(
+                [37.76356,-122.45687109999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_309e1ac0668340e48a6fc54f6bbd7c9c = L.popup({maxWidth: '300'});
+
+            
+                var html_5b25111bffc64b1ea6a3b02dd274dbec = $('<div id="html_5b25111bffc64b1ea6a3b02dd274dbec" style="width: 100.0%; height: 100.0%;">Langley Porter Psychiatric Institute   401 Parnassus Ave, San Francisco, CA 94143, USA</div>')[0];
+                popup_309e1ac0668340e48a6fc54f6bbd7c9c.setContent(html_5b25111bffc64b1ea6a3b02dd274dbec);
+            
+
+            circle_marker_bce386c85d1e48cb903727bedaa6c605.bindPopup(popup_309e1ac0668340e48a6fc54f6bbd7c9c);
+
+            
+        
+    
+            var circle_marker_f60f77af65f040fba78e04ef3f3df822 = L.circleMarker(
+                [36.778261,-119.4179324],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_5311e4b2e66b44d7ac5b29ed2092aeba = L.popup({maxWidth: '300'});
+
+            
+                var html_fd5576300a8b450898ce439c038115cb = $('<div id="html_fd5576300a8b450898ce439c038115cb" style="width: 100.0%; height: 100.0%;">Letterman Army Hospital   California, USA</div>')[0];
+                popup_5311e4b2e66b44d7ac5b29ed2092aeba.setContent(html_fd5576300a8b450898ce439c038115cb);
+            
+
+            circle_marker_f60f77af65f040fba78e04ef3f3df822.bindPopup(popup_5311e4b2e66b44d7ac5b29ed2092aeba);
+
+            
+        
+    
+            var circle_marker_0c8afb5e2567494f80b05aa9dec1daa1 = L.circleMarker(
+                [36.778261,-119.4179324],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_2d7589da0609405a9484764283778c63 = L.popup({maxWidth: '300'});
+
+            
+                var html_6079d23f8f1c41c8883c410159a5cb2d = $('<div id="html_6079d23f8f1c41c8883c410159a5cb2d" style="width: 100.0%; height: 100.0%;">Pacific Dispensary for Women and Children   California, USA</div>')[0];
+                popup_2d7589da0609405a9484764283778c63.setContent(html_6079d23f8f1c41c8883c410159a5cb2d);
+            
+
+            circle_marker_0c8afb5e2567494f80b05aa9dec1daa1.bindPopup(popup_2d7589da0609405a9484764283778c63);
+
+            
+        
+    
+            var circle_marker_0aecad6c1c0e4380bcf74b595b4bb090 = L.circleMarker(
+                [37.646421000000004,-120.9829717],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_50e2de0fc10948248cb8d8e257c7d0fa = L.popup({maxWidth: '300'});
+
+            
+                var html_3d7356a7f72341fd9370124face826ff = $('<div id="html_3d7356a7f72341fd9370124face826ff" style="width: 100.0%; height: 100.0%;">Public Health Service Hospital   830 Scenic Dr, Modesto, CA 95353, USA</div>')[0];
+                popup_50e2de0fc10948248cb8d8e257c7d0fa.setContent(html_3d7356a7f72341fd9370124face826ff);
+            
+
+            circle_marker_0aecad6c1c0e4380bcf74b595b4bb090.bindPopup(popup_50e2de0fc10948248cb8d8e257c7d0fa);
+
+            
+        
+    
+            var circle_marker_64e740b0b36449d88f7c6ac7e01a0eff = L.circleMarker(
+                [37.7893799,-122.4167294],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_e3aeba034374486b8f68a28627420665 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b8d9da5d92a4497b66a05aa0cc61d69 = $('<div id="html_5b8d9da5d92a4497b66a05aa0cc61d69" style="width: 100.0%; height: 100.0%;">Saint Francis Memorial Hospital   900 Hyde St, San Francisco, CA 94109, USA</div>')[0];
+                popup_e3aeba034374486b8f68a28627420665.setContent(html_5b8d9da5d92a4497b66a05aa0cc61d69);
+            
+
+            circle_marker_64e740b0b36449d88f7c6ac7e01a0eff.bindPopup(popup_e3aeba034374486b8f68a28627420665);
+
+            
+        
+    
+            var circle_marker_63f930aaa3bc4db1b455b275af3f0c79 = L.circleMarker(
+                [37.7854667,-122.43931809999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_7bacaa0bc37743efa4c78d0177440f63 = L.popup({maxWidth: '300'});
+
+            
+                var html_91d98a0c96094215869d525d5c5603ac = $('<div id="html_91d98a0c96094215869d525d5c5603ac" style="width: 100.0%; height: 100.0%;">St. Josephs Hospital (San Francisco)   2356 Sutter St, San Francisco, CA 94115, USA</div>')[0];
+                popup_7bacaa0bc37743efa4c78d0177440f63.setContent(html_91d98a0c96094215869d525d5c5603ac);
+            
+
+            circle_marker_63f930aaa3bc4db1b455b275af3f0c79.bindPopup(popup_7bacaa0bc37743efa4c78d0177440f63);
+
+            
+        
+    
+            var circle_marker_8a12b8d4e50f43e5b1138ddaf869bcc7 = L.circleMarker(
+                [37.7475351,-122.42103689999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_1eebe79395444f2c98f79af71c3388fe = L.popup({maxWidth: '300'});
+
+            
+                var html_6fbbc4359149457981ba1ee3d31b2e27 = $('<div id="html_6fbbc4359149457981ba1ee3d31b2e27" style="width: 100.0%; height: 100.0%;">St. Lukes Hospital (San Francisco, California)   3555 Cesar Chavez, San Francisco, CA 94110, USA</div>')[0];
+                popup_1eebe79395444f2c98f79af71c3388fe.setContent(html_6fbbc4359149457981ba1ee3d31b2e27);
+            
+
+            circle_marker_8a12b8d4e50f43e5b1138ddaf869bcc7.bindPopup(popup_1eebe79395444f2c98f79af71c3388fe);
+
+            
+        
+    
+            var circle_marker_b78c28a66cf5474ba2efded485b43f1d = L.circleMarker(
+                [37.774058200000006,-122.45378229999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_0d8fc6947cc241408cb3d4ca8b826661 = L.popup({maxWidth: '300'});
+
+            
+                var html_ca5585df05ef4ec99a23ba5c3461f1d0 = $('<div id="html_ca5585df05ef4ec99a23ba5c3461f1d0" style="width: 100.0%; height: 100.0%;">St. Marys Medical Center (San Francisco)   450 Stanyan St, San Francisco, CA 94117, USA</div>')[0];
+                popup_0d8fc6947cc241408cb3d4ca8b826661.setContent(html_ca5585df05ef4ec99a23ba5c3461f1d0);
+            
+
+            circle_marker_b78c28a66cf5474ba2efded485b43f1d.bindPopup(popup_0d8fc6947cc241408cb3d4ca8b826661);
+
+            
+        
+    
+            var circle_marker_71b9eaa2091946029c26670c10da3926 = L.circleMarker(
+                [37.795528600000004,-122.40896380000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_86bf27cc1be649e38bc64b81085ed319 = L.popup({maxWidth: '300'});
+
+            
+                var html_0df139a25a85452aa3906cffbe356fa1 = $('<div id="html_0df139a25a85452aa3906cffbe356fa1" style="width: 100.0%; height: 100.0%;">San Francisco Chinese Hospital   845 Jackson St, San Francisco, CA 94133, USA</div>')[0];
+                popup_86bf27cc1be649e38bc64b81085ed319.setContent(html_0df139a25a85452aa3906cffbe356fa1);
+            
+
+            circle_marker_71b9eaa2091946029c26670c10da3926.bindPopup(popup_86bf27cc1be649e38bc64b81085ed319);
+
+            
+        
+    
+            var circle_marker_e76ad17ce9d543639b5bcc0196e696d7 = L.circleMarker(
+                [37.779275,-122.41924170000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_bcb714714fd04f6884ea34d3e68ef047 = L.popup({maxWidth: '300'});
+
+            
+                var html_bb73b9b84a624ef584ba8783a549812d = $('<div id="html_bb73b9b84a624ef584ba8783a549812d" style="width: 100.0%; height: 100.0%;">San Francisco City Clinic   1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102, USA</div>')[0];
+                popup_bcb714714fd04f6884ea34d3e68ef047.setContent(html_bb73b9b84a624ef584ba8783a549812d);
+            
+
+            circle_marker_e76ad17ce9d543639b5bcc0196e696d7.bindPopup(popup_bcb714714fd04f6884ea34d3e68ef047);
+
+            
+        
+    
+            var circle_marker_be94b6187b2c400fb0f91cc54c1bdb71 = L.circleMarker(
+                [37.7561796,-122.4050025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_0df81dc8243e462fbea5c3a1f300a30e = L.popup({maxWidth: '300'});
+
+            
+                var html_8e4054f438c9408eaa4239cac8cd351f = $('<div id="html_8e4054f438c9408eaa4239cac8cd351f" style="width: 100.0%; height: 100.0%;">San Francisco General Hospital   1001 Potrero Ave, San Francisco, CA 94110, USA</div>')[0];
+                popup_0df81dc8243e462fbea5c3a1f300a30e.setContent(html_8e4054f438c9408eaa4239cac8cd351f);
+            
+
+            circle_marker_be94b6187b2c400fb0f91cc54c1bdb71.bindPopup(popup_0df81dc8243e462fbea5c3a1f300a30e);
+
+            
+        
+    
+            var circle_marker_775f644090f946c088ab555aec45ba71 = L.circleMarker(
+                [37.782395,-122.50526440000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_34946c7ae84f4dfcb668c289462b9890 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b66e1d115b5464eb305cc1e873e7845 = $('<div id="html_6b66e1d115b5464eb305cc1e873e7845" style="width: 100.0%; height: 100.0%;">San Francisco VA Medical Center   4150 Clement St, San Francisco, CA 94121, USA</div>')[0];
+                popup_34946c7ae84f4dfcb668c289462b9890.setContent(html_6b66e1d115b5464eb305cc1e873e7845);
+            
+
+            circle_marker_775f644090f946c088ab555aec45ba71.bindPopup(popup_34946c7ae84f4dfcb668c289462b9890);
+
+            
+        
+    
+            var circle_marker_981372ef7ac643f4a283ae8913dcb0d7 = L.circleMarker(
+                [37.765375,-122.39036000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_11e6005159bd47869da9965ff07b1744 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4a60253381d4a14a20d4b119454dbcf = $('<div id="html_e4a60253381d4a14a20d4b119454dbcf" style="width: 100.0%; height: 100.0%;">UCSF Bakar Cancer Hospital   1855 4th St, San Francisco, CA 94158, USA</div>')[0];
+                popup_11e6005159bd47869da9965ff07b1744.setContent(html_e4a60253381d4a14a20d4b119454dbcf);
+            
+
+            circle_marker_981372ef7ac643f4a283ae8913dcb0d7.bindPopup(popup_11e6005159bd47869da9965ff07b1744);
+
+            
+        
+    
+            var circle_marker_563bf14242844fd0a7e89f11becc042c = L.circleMarker(
+                [37.7648549,-122.39026969999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_8cfcf8c15bc54a00a8c45095ae258b4b = L.popup({maxWidth: '300'});
+
+            
+                var html_f110459d9d9c470c96a21108388aff25 = $('<div id="html_f110459d9d9c470c96a21108388aff25" style="width: 100.0%; height: 100.0%;">UCSF Benioff Childrens Hospital   1975 4th St, San Francisco, CA 94158, USA</div>')[0];
+                popup_8cfcf8c15bc54a00a8c45095ae258b4b.setContent(html_f110459d9d9c470c96a21108388aff25);
+            
+
+            circle_marker_563bf14242844fd0a7e89f11becc042c.bindPopup(popup_8cfcf8c15bc54a00a8c45095ae258b4b);
+
+            
+        
+    
+            var circle_marker_e16ba1fa431043259c99ef3e7162c331 = L.circleMarker(
+                [37.7654511,-122.3901035],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_3e5e91ee12c04b46bdc08d7398752434 = L.popup({maxWidth: '300'});
+
+            
+                var html_3c06d933970b4a05a3a80562eb038804 = $('<div id="html_3c06d933970b4a05a3a80562eb038804" style="width: 100.0%; height: 100.0%;">UCSF Betty Irene Moore Women%E2%80%99s Hospital   1855 4th St, San Francisco, CA 94158, USA</div>')[0];
+                popup_3e5e91ee12c04b46bdc08d7398752434.setContent(html_3c06d933970b4a05a3a80562eb038804);
+            
+
+            circle_marker_e16ba1fa431043259c99ef3e7162c331.bindPopup(popup_3e5e91ee12c04b46bdc08d7398752434);
+
+            
+        
+    
+            var circle_marker_f687215650fe41a79f00ee48ee774819 = L.circleMarker(
+                [37.7662668,-122.3903787],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_2c0d5ea1ba7d4a3d8b630ee576867575 = L.popup({maxWidth: '300'});
+
+            
+                var html_1187ce8306e64ab1be72a55e075b2b34 = $('<div id="html_1187ce8306e64ab1be72a55e075b2b34" style="width: 100.0%; height: 100.0%;">UCSF Helen Diller Family Comprehensive Cancer Center   1450 3rd St, San Francisco, CA 94158, USA</div>')[0];
+                popup_2c0d5ea1ba7d4a3d8b630ee576867575.setContent(html_1187ce8306e64ab1be72a55e075b2b34);
+            
+
+            circle_marker_f687215650fe41a79f00ee48ee774819.bindPopup(popup_2c0d5ea1ba7d4a3d8b630ee576867575);
+
+            
+        
+    
+            var circle_marker_b385c5d7b7664d359204869580f1730c = L.circleMarker(
+                [37.7631182,-122.4578207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_6c94e0b91f48487bbe2a647c1035513d = L.popup({maxWidth: '300'});
+
+            
+                var html_a933c3636b72411582881fe907eb9f22 = $('<div id="html_a933c3636b72411582881fe907eb9f22" style="width: 100.0%; height: 100.0%;">UCSF Medical Center   505 Parnassus Ave, San Francisco, CA 94143, USA</div>')[0];
+                popup_6c94e0b91f48487bbe2a647c1035513d.setContent(html_a933c3636b72411582881fe907eb9f22);
+            
+
+            circle_marker_b385c5d7b7664d359204869580f1730c.bindPopup(popup_6c94e0b91f48487bbe2a647c1035513d);
+
+            
+        
+    
+            var circle_marker_1252ae8f359f4c2ab07605efc94ea804 = L.circleMarker(
+                [37.76556679999999,-122.389776],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_5f752d4c4ce24b119143920d85f99e6e);
+            
+    
+            var popup_ff75cd3def044af8aa31be03fce702bf = L.popup({maxWidth: '300'});
+
+            
+                var html_8334f0e442b14393b8e6245bf2844d2b = $('<div id="html_8334f0e442b14393b8e6245bf2844d2b" style="width: 100.0%; height: 100.0%;">University of California, San Francisco Fetal Treatment Center   1855 Fourth St Second Floor, Room A-2432, San Francisco, CA 94158, USA</div>')[0];
+                popup_ff75cd3def044af8aa31be03fce702bf.setContent(html_8334f0e442b14393b8e6245bf2844d2b);
+            
+
+            circle_marker_1252ae8f359f4c2ab07605efc94ea804.bindPopup(popup_ff75cd3def044af8aa31be03fce702bf);
+
+            
+        
+</script>
